@@ -10,6 +10,7 @@ Run:
 import sys
 import joblib
 from features import extract_features
+
 MODEL_PATH = "poverty_model.joblib"
 
 
