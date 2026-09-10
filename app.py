@@ -17,7 +17,6 @@ from PIL import Image
 
 from features import extract_features, FEATURE_NAMES
 from data_generator import generate_image, CLASSES as GEN_CLASSES
-
 MODEL_PATH = "models/poverty_model.joblib"
 
 st.set_page_config(page_title="Satellite Poverty Predictor", page_icon="🛰️", layout="centered")
